@@ -1,0 +1,12 @@
+[package]
+name = "faultline-core"
+description = "Core types for faultline: findings, metrics and severities."
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+repository.workspace = true
+authors.workspace = true
+
+[lints]
+workspace = true

@@ -1,0 +1,20 @@
+[package]
+name = "faultline-cli"
+description = "Detects where your codebase starts to break under fast, AI-assisted development."
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+repository.workspace = true
+authors.workspace = true
+
+[[bin]]
+name = "faultline"
+path = "src/main.rs"
+
+[dependencies]
+faultline-core.workspace = true
+faultline-report.workspace = true
+
+[lints]
+workspace = true
